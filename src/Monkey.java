@@ -107,8 +107,14 @@ public class Monkey {
 
     public static void main(String[] args) {
 
+        // state 0,
+        State state0 = new State(
+                'A', 'B', 'C',
+                false, false
+        );
+        statelist.add(state0);
+
         // state 1
-        //
         State state1 = new State(
                 'A', 'C', 'B',
                 false, false

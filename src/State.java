@@ -30,8 +30,8 @@ public class State {
     }
 
     /**
-     * To check if monkey is under the banana
-     * @return
+     * To check if monkey is on the box
+     * @return boolean monkey is on the box
      */
     public boolean getMonkeyOn() {
         return monkeyOn;
@@ -43,7 +43,7 @@ public class State {
 
     /**
      * To check if the monkey is under the banana.
-     * @return
+     * @return boolean the monkey is at banana position
      */
     public boolean monkeyAtBanana(){
         return this.posMonkey == this.posBanana;
